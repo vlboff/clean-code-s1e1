@@ -49,10 +49,6 @@ body {
 .section__list {
   margin: 0;
   padding: 0px;
-}
-
-.section__item,
-.section__head {
   list-style: none;
 }
 
@@ -134,50 +130,45 @@ body {
   margin: 0 10px;
 }
 
-.section__item > .section__lable {
+.section__lable {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.section__item > .section__task {
+.section__item .section__task {
   width: 226px;
 }
 
-.section__button_delete,
-.section__button-image {
+.section__button_delete .section__button-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.section__button_delete,
-.section__button-image:hover {
+.section__button_delete .section__button-image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-.section__lable_completed {
+#completed-tasks .section__lable {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.section__item,
-.section__task {
+.section__item .section__task {
   display: none;
 }
 
-.section__item_edit,
-.section__task {
+.section__item_edit .section__task {
   display: inline-block;
   width: 224px;
 }
 
-.section__item_edit,
-.section__lable {
+.section__item_edit .section__lable {
   display: none;
 }
