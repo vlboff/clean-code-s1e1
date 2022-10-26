@@ -1,4 +1,5 @@
 /* Basic Style */
+
 body {
   background-color: #f8f8f8;
   color: #333;
@@ -72,6 +73,7 @@ button:hover {
 }
 
 /* Heading */
+
 h3,
 label[for="new-task"] {
   color: #333;
@@ -101,6 +103,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
+
 label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
@@ -150,12 +153,14 @@ button.delete img:hover {
 }
 
 /* Completed */
+
 ul#completed-tasks label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 ul li input[type=text] {
   display:none
 }
